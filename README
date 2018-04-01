@@ -1,0 +1,29 @@
+A.
+g++ -c A.cpp
+g++ A.o -o A
+
+B.
+size=1000
+sort(): 0.000246 seconds
+v1/v2 are different.
+insertion_sort(): 0.008589 seconds
+v1/v2 are the same.
+
+size=10000
+sort(): 0.002847 seconds
+v1/v2 are different.
+insertion_sort(): 0.831074 seconds
+v1/v2 are the same.
+
+size=100000
+sort(): 0.031886 seconds
+v1/v2 are different.
+
+size=1000000
+sort(): 0.377425 seconds
+v1/v2 are different.
+
+time-complexity of sort = O(n*log(n))
+time-complexity of insertion-sort = O(n^2)
+so the time to execute insertion-sort is longer than the time to execute sort.
+
